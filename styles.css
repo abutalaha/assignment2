@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Convergence', sans-serif;
+}
+.head{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 5rem;
+    font-weight: 900;
+    background-color: white;
+    letter-spacing: 5px;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+}
+.img{
+    width: 360px;
+    height: 250px; 
+   
+}
+.we{
+ margin-left: 6rem;
+ padding-top: 3rem;
+ font-size: 2rem;
+ letter-spacing: 5px;
+ color: pink;
+ font-weight: 600;
+ background-color: rgb(250, 239, 241);
+}
+.com{
+    margin-left: 4.7rem;
+    font-size: 2rem;
+ letter-spacing: 5px;
+ font-weight: 600;
+}
+.co{
+    margin-left: 6rem;
+    font-size: 2rem;
+ letter-spacing: 5px;
+ font-weight: 600;
+}
+.logo{
+    width: 35px;
+    height: 30px;
+}
+.para{
+    color: pink;
+    font-weight: 500;
+    padding: 10px 10px 10px 15px;
+    width: 22rem;
+    text-align: center;
+    line-height: 1.4rem;
+   
+}
+input{
+   text-align: center;
+   margin-top: 2rem;
+   margin-left: 3rem;
+   margin-right: -4rem;
+   margin-bottom: 5rem;
+   height: 3.5rem;
+   width: 15rem;
+   text-align: left;
+   background-color: rgb(250, 239, 241);
+   border-radius: 25px;
+   border: solid 1px rgb(153, 89, 89);
+   padding-left: 21px;
+   cursor: pointer;
+  
+}
+button{
+    height: 3.5rem;
+    width: 5rem;
+    border-radius: 30px;
+    margin-left: 0%;
+    color: white;
+    background: linear-gradient(-45deg, rgb(255, 124, 124), rgb(255, 170, 186) );
+    border: none;
+    font-size : 2rem;
+    margin-top : 2rem;
+    cursor: pointer;
+    
+}
+.mail{
+    display: flex;
+    background-color: rgb(250, 239, 241);
+}
+.color{
+    background-color: rgb(250, 239, 241);
+}
+@media only screen and (min-width:1024px) {
+    .img{
+        float: right;
+        width: 45%;
+        height: 50rem;
+        margin-top: -7rem;
+    
+    }
+    .head{
+        background-color: rgb(250, 239, 241);
+        width: 4rem;
+        height: 3rem;
+        margin-left: 8rem;
+        padding-top: 1.8rem;
+    }
+    body{
+        background-color: rgb(250, 239, 241);
+    }
+    .we{
+    padding-left: 2rem;
+    letter-spacing: 1.8rem;
+    padding-top: 5rem;
+    font-weight: 400;
+    font-size: 3rem;
+    }
+    .com{
+        padding-left: 3.2rem;
+        letter-spacing: 2rem;
+        font-size: 3rem;
+    }
+    .co{
+        padding-left: 2rem;
+        letter-spacing: 1.8rem;
+        font-size: 3rem;
+    }
+    .para{
+        padding-left: 8rem;
+        width: 38rem;
+        text-align: left;
+        padding-top: 2rem;
+        font-size: 16px;
+    }
+    .mail{
+        padding-left: 2rem;
+    }
+    input{
+        margin-left: 6rem;
+        width: 27rem;
+    }
+}
